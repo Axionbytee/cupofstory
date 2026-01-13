@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!--Rebienald was here-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cup of Story </title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,600;1,400&family=Montserrat:wght@200;300;500&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="cursor"></div>
+    <div id="cursor-follower"></div>
+
+    <nav>
+        <a href="#" class="logo">Cup of Story.</a>
+        
+        <button class="burger" id="burger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <div class="nav-links" id="nav-list">
+            <a href="#menu" class="nav-item">Best Sellers</a>
+            <a href="#about" class="nav-item">The Prologue</a>
+            <a href="#contact" class="nav-item">Visit</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <img id="hero-img" src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&q=80&w=1600" alt="Coffee">
+        <div class="hero-text">
+            <span>Established 2026</span>
+            <h1>Every cup tells <br> a <b>story</b></h1>
+        </div>
+    </header>
+
+    <section id="menu" class="section">
+        <span class="section-label reveal">Our Best Sellers</span>
+        <div class="menu-container">
+            <div class="menu-item reveal">
+                <div class="img-wrap"><img src="https://images.pexels.com/photos/2396220/pexels-photo-2396220.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Latte"></div>
+                <div class="item-meta">
+                    <h3>The White Ink</h3>
+                    <p class="price">01. OAT & VANILLA BEAN — ₱160.00</p>
+                </div>
+            </div>
+            <div class="menu-item reveal" style="transition-delay: 0.2s;">
+                <div class="img-wrap"><img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&q=80&w=800" alt="Pour Over"></div>
+                <div class="item-meta">
+                    <h3>Midnight Drip</h3>
+                    <p class="price">02. DARK VOLCANIC ROAST — ₱150.50</p>
+                </div>
+            </div>
+            <div class="menu-item reveal" style="transition-delay: 0.4s;">
+                <div class="img-wrap"><img src="https://i.pinimg.com/originals/48/b9/3d/48b93dd7d619f5f614e3e7e9f8e4fe06.jpg" alt="Cold Brew"></div>
+                <div class="item-meta">
+                    <h3>Bitter Sweet</h3>
+                    <p class="price">03. ICED MOCHA LATTE — ₱140.00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section" style="background: #F0EDE8;">
+        <div class="about-wrap">
+            <div class="about-text reveal">
+                <span class="section-label">The Prologue</span>
+                <h2>We roast the things you're afraid to say.</h2>
+                <p>Cup of Story wasn't born in a boardroom. It was born in the middle of a sleepless night, fueled by a single-origin bean and a typewriter that wouldn't stop clicking.</p>
+            </div>
+            <div class="about-img-container reveal">
+                <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&q=80&w=1200" class="about-img" alt="Interior">
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="footer-left reveal">
+            <span class="section-label" style="color: var(--paper); opacity: 0.5; margin-bottom: 1rem;">The Epilogue</span>
+            <h3>Visit us before the story ends.</h3>
+            <p style="opacity: 0.8; font-weight: 200; margin-top: 1.5rem;">88 Inkwell Terrace, The Hollows</p>
+        </div>
+        <div class="footer-right reveal" style="transition-delay: 0.2s;">
+            <p>FOLLOW THE NARRATIVE</p>
+            <a href="#" style="font-size: 1.5rem; color: var(--accent); text-decoration: none; font-family: 'Cormorant Garamond', serif; font-style: italic;">@CUPOFSTORY</a>
+        </div>
+    </footer>
+
+    <script src="animation.js"></script>
+       
+ 
+</body>
+</html>
